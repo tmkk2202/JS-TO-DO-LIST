@@ -1,0 +1,20 @@
+.item-description {
+    padding: 5px;
+    width: 200px;
+    margin: 10px;
+}
+
+.item-completed:checked + .item-description {
+    background: white;
+    text-decoration: line-through;
+}
+
+#add {
+    padding: 8px 12px;
+    font-weight: bold;
+    color: white;
+    background: green;
+    cursor: pointer;
+    border-radius: 3px;
+    
+}
